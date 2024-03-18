@@ -61,9 +61,7 @@
         <div class="sidebar-item">
             <a href="#"><i class="fas fa-tachometer-alt mr-2"></i>Dashboard</a>
         </div>
-        <div class="sidebar-item">
-            <a href="#"><i class="fas fa-user mr-2"></i>User Account</a>
-        </div>
+        
         <div class="sidebar-item">
             <a href="#"><i class="fas fa-calendar-alt mr-2"></i>Appointment</a>
         </div>
