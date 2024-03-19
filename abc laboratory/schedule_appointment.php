@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Schedule Appointment</title>
-    <!-- Add link to CSS file -->
+    
 </head>
 <body>
     <h1>Schedule Your Appointment</h1>
@@ -19,7 +19,7 @@
             <option value="blood_test">Blood Test</option>
             <option value="x_ray">X-Ray</option>
             <option value="MRI">MRI</option>
-            <!-- Populate this list based on your offerings -->
+          
         </select>
         
         <button type="submit" name="schedule_appointment">Schedule Appointment</button>

@@ -3,5 +3,5 @@
         <h2>Admin Dashboard</h2>
        
     </div>
-    <?php include_once "commonfiles/script.php"; ?>
+<?php include_once "commonfiles/script.php"; ?>
     
