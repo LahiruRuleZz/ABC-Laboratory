@@ -34,11 +34,13 @@ function scheduleAppointment($conn) {
     $appointment_type = $_POST['appointment_type'];
 
    
-    $stmt = $conn->prepare("INSERT INTO appointments (patient_id, appointment_date, appointment_type) VALUES (?, ?, ?)");
-    $stmt->bind_param("iss", $patient_id, $appointment_date, $appointment_type);
+    $stmt = $conn->prepare("INSERT INTO appointments (patient_id, appointment_date ,app_id) VALUES (?, ?, ?)");
+    $stmt->bind_param("iss", $patient_id, $appointment_date , $appointment_type);
 
     if ($stmt->execute()) {
-        echo "Appointment scheduled successfully.";
+        
+        
+        echo "<script type='text/javascript'>alert('Appointment scheduled successfully'); window.location.href='pwelcome.php';</script>";
     } else {
         echo "Error scheduling appointment.";
     }
