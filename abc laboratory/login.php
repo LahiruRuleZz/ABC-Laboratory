@@ -37,10 +37,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     header('location: awelcome.php');
                 }
                 elseif ($user['user_type'] == 'technician') {
-                    header('location: twelcome.php');
+                    header('location: awelcome.php');
                 }
                 elseif ($user['user_type'] == 'receptionist') {
-                    header('location: rwelcome.php');
+                    header('location: awelcome.php');
                 }
                 
                 else {

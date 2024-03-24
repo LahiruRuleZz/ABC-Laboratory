@@ -8,7 +8,7 @@ FROM appointments a
 JOIN users u ON a.patient_id = u.user_id
 JOIN appoinment_type apt on apt.app_id = a.app_id";
 
-// Modify query based on user role
+
 if (isset($_SESSION['user_type']) && $_SESSION['user_type'] === 'patient') {
     // For patients, only show their own appointments
     $patientId = $_SESSION['user_id'];
